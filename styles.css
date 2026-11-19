@@ -1,0 +1,51 @@
+img {
+    border: 5px solid #AAA7A7; /* Set the border thickness and color */
+    border-radius: 25px; /* Adjust the corner radius for a rounded rectangle */
+    width: 1200px; /* Set the width of the rectangle */
+    height: 300px; /* Set the height of the rectangle */
+    display: block; /* Make the image a block-level element */
+    margin: 0 auto; /* Center the image horizontally */
+    }
+
+h1 {
+    font-size: 80px; 
+    font-family: "Georgia", "Times New Roman", serif;
+  font-style: italic;
+    color: #171b35;
+    text-align: center;
+    margin-bottom: 10px;
+    -webkit-text-stroke: 1px #AAA7A7; /* Add a stroke with the specified color */
+    text-stroke: 1px #AAA7A7; /* Fallback for other browsers */
+}
+
+
+h2 {
+    font-size: 50px; /* Adjust the size of the <h2> */
+    font-family: "Palatino Linotype", "Palatino", "Times New Roman", serif;
+    color: #171b35; /* Optional: Change the text color */
+    text-align: center;
+    -webkit-text-stroke: .4px #AAA7A7; /* Add a stroke with the specified color */
+    text-stroke: .4px #AAA7A7; /* Fallback for other browsers */
+   }
+
+   p {
+    font-size: 30px; /* Adjust the size of the paragraph text */
+    font-family: "Palatino Linotype", "Palatino", "Times New Roman", serif; /* Changed font-family to be web-safe friendly */
+    color: #171b35; /* Match the text color of <h2> */
+    text-align: center; /* Center-align the paragraph text */
+    line-height: 1.6; /* Add spacing between lines for better readability */
+    margin: 20px auto; /* Add vertical spacing and center horizontally */
+    max-width: 600px; /* Limit the width of the paragraph for better readability */
+}
+
+body {
+    background-color: #a59476; /* Set the background color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+.content-wrapper {
+    width: 1200px; /* Set the width of the wrapper */
+    margin: 0 auto; /* Center the wrapper horizontally */
+    padding: 20px; /* Add some padding inside the wrapper */
+   
+}
